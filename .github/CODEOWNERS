@@ -1,0 +1,10 @@
+# SEC3 1028: changes to CI, container, scanner and env-template files need the owner's review.
+/.github/ @enfusionize
+.env.example @enfusionize
+**/.env.example @enfusionize
+**/.env.*.example @enfusionize
+Dockerfile* @enfusionize
+**/Dockerfile* @enfusionize
+docker-compose*.yml @enfusionize
+.gitleaks.toml @enfusionize
+.pre-commit-config.yaml @enfusionize
